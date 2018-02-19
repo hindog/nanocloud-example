@@ -17,8 +17,8 @@ public class ExampleGrid {
 
     private String remoteHost = "10.50.3.132";
     private Optional<String> remoteJava = Optional.of("/usr/java/latest/bin/java");
-    private Optional<String> remoteUser = Optional.of("ec2-user");
-    private Optional<String> privateKey = Optional.of("~/.ssh/clouderaProdKeyPair.pem");
+    private Optional<String> remoteUser = Optional.of("hindog");
+    private Optional<String> privateKey = Optional.of("~/.ssh/myPrivateKey.pem");
 
     public <T> void execute(final Callable<T> callable) throws Exception {
 
