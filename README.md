@@ -29,8 +29,7 @@ I'm experiencing a couple of "anomalies" with the NanoCloud library and put toge
 
 2. Scala example requires the `Callable` to extend `Serializable` whereas the Java examples do not.  Is the library wrapping the `Callable` in some way that might not work for Scala?
 
-Here is a table of the different test cases for demonstration
-
+Here is a table of the different test cases for demonstration (you can use your IDE -OR- `mvn exec:exec` to execute and edit the `pom.xml` plugin with the class you want to run) 
 Class | Description | Executes Remotely? | Proper shutdown?
 ------|-------------|-------------------|----------------
 `JavaAppTest`  | Runs `Callable` within a Java `main` method | YES | NO
